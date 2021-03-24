@@ -49,4 +49,20 @@ UNTRACKED -> MODIFIED -> STAGED 	-> UNMODIFIED
 			<----------change or delete------
 <--------------------------------------------
 
+git check out -- .
+
+
+-----git commit hiisen butsaah ---
+
+git restore  --stagve filename
+git reset head filename
+git cached filename
+git rm --cached filename
+
+
+----- repo dotorh uurchlugdsun file iig umnuh ruun shiljuuleh ----
+
+git checkout -- filename
+
+
 
