@@ -1,0 +1,52 @@
+git status
+git config -l
+git log
+
+git remote -v 
+
+git config --global user.name "amartuvshin"
+git config --global user.email "educatornum@gmail.com"
+
+git init 
+
+git config --local user.name "developer"
+git config --local user.email "educatornum@gmail.com"
+git config -l --show-origin
+git config --help
+
+rm -rf .git
+
+git init 
+git status
+git add .
+git push
+git remote add origin "https://github.com/username/reponame"
+git push origin master
+
+git remote --help
+
+--Git general command --
+
+1.git init		-> git local repo uusgene
+2.git status	-> show status
+3.git add		-> add stage
+4.git commit 	-> git iin file systemruu bichne 
+5.git push		-> git repog online server push hine
+6.git pull		-> git repog online repo-goos local ruu awchirna
+7.git checkout	-> local repo-goos tusliin ali neg tuuh eswel salbariin ocde iig gargaj awna
+
+
+
+--Git lifecycle --
+untracked	-> burtgelgui
+modified	-> uurchlugdsun
+staged		-> songogdson
+unmodified	-> uurchlugduugui
+
+UNTRACKED -> MODIFIED -> STAGED 	-> UNMODIFIED
+-----------git add ---------->
+							 ---git commit-->	
+			<----------change or delete------
+<--------------------------------------------
+
+
